@@ -584,275 +584,6 @@ p ._16px {
     display: none;
 }
 
-@media only screen and (max-width: 425px) {
-    body {
-        
-    }
-    .body-max-width {
-        max-width: 380px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .header {
-        flex-direction: column;
-    }
-    .first-input {
-        width: 350px;
-    }
-    .second-input {
-        width: 323px;  
-    }
-    .text-block._20-px {
-        width: 380px;
-    }
-    h1 {
-        font-size: 40px !important;
-    }
-    .paragraph._22px {
-        font-size: 19px;
-        /* line-height: 150%; */
-    }
-    .header-width {
-        width: 100%;
-    }
-    .my-img {
-        padding-top: 60px;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .services-wid-pad-button {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 80px;
-    }
-    h3 .gradiants {
-        font-size: 24px;
-        letter-spacing: 4px; 
-    }
-    .projects-wid-pad {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .big-title {
-        font-weight: 700;
-        font-size: 32px;
-        width: 350px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .contact-wid-pad {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    h5 {
-        font-size: 19px;
-    }
-    .black-section {
-        display: none;
-    }
-    .marg-top {
-        margin-top: 0px;
-    }
-    .contact-margin-top {
-        margin-top: 50px;
-    }
-    /* img {
-        width: 100%;
-    } */
-    .h2 {
-        font-size: 36px;
-        line-height: 120%;
-        letter-spacing: 0.5px;
-    }
-    .faq-wid-pad {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .collap-width {
-        width: 100%;
-    }
-    .banners {
-        margin: 30px 0px;
-    }
-    #contact {
-        margin-top: 200px;
-    }
-    .flex-space-between {
-        flex-direction: column;
-    }
-    .footer-img {
-        width: 70%;
-    }
-    .flex-col {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .footer-nav-b {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .gap {
-        margin: 0;
-    }
-    .pad-right1 {
-        padding-right: 60px;
-    }
-    .pad-right2 {
-        padding-right: 59px;
-    }
-    .pad-right3 {
-        padding-right: 22px;
-    }
-
-    .img-faq {
-        background-image: url(./arrow-down-s-line-1.svg);
-        background-repeat: no-repeat;
-        background-size: 755px 18px;
-        background-position: 4% 50%;
-    }
-    .accordion {
-        width: 100%;
-    }
-    .span2 {
-        font-size: 30px !important;
-        letter-spacing: 1px !important;
-    }
-    .email-image-wrapper {
-        width: 30px;
-        height: 21px;
-        margin-right: 6px;
-        margin-top: 8px;
-    }
-    .img-pad {
-        width: 85%;
-    }
-    .header.flex-row {
-        flex-direction: row;
-    }
-    .textarea {
-        width: 350px;
-    }
-    .div-form-label {
-        width: 375px;
-    }
-    .services-p-width {
-        padding-top: 30px;
-    }
-    .header.revers {
-        flex-direction: column-reverse;
-    }
-    #i-bar {
-        display: block;
-        margin-left: 166px;
-    }
-    #i-bar :hover{
-
-    }
-    .header.i-nav-bar {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .side-menu {
-        display: none;
-    }
-
-    .hamb {
-        cursor: pointer;
-        float: right;
-        padding: 40px 20px;
-    }
-    .nav {
-        max-height: 0;
-        transition: max-height .5s ease-out;
-    }
-    .nav{
-        width: 100%;
-        height: 16%;
-        background-color: white;
-        position: absolute;
-        top: 104px;
-        left: 0;
-        overflow: hidden;
-    }
-
-    .row {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    .menu a{
-        display: block;
-        padding: 12px;
-        margin: 0;
-        color: black;
-        text-align: center;
-    }
-    .menu a:hover{
-        background-color: white;
-    }
-    .side-menu:checked ~ nav{
-        max-height: 100%;
-    }
-    .hamb-line {
-        background: black;
-        display: block;
-        height: 2px;
-        position: relative;
-        width: 24px;
-    }
-    .hamb-line::before,
-    .hamb-line::after{
-    background: black;
-    content: '';
-    display: block;
-    height: 100%;
-    position: absolute;
-    transition: all .2s ease-out;
-    width: 100%;
-    }
-    .hamb-line::before{
-    top: 5px;
-    }
-
-    .hamb-line::after{
-    top: -5px;
-    }
-    .side-menu:checked ~ .nav{
-        max-height: 16%;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-    }
-    
-    .side-menu:checked ~ .hamb .hamb-line {
-        background: transparent;
-    }
-    
-    .side-menu:checked ~ .hamb .hamb-line::before {
-        transform: rotate(-45deg);
-        top:0;
-    
-    }
-    
-    .side-menu:checked ~ .hamb .hamb-line::after {
-        transform: rotate(45deg);
-        top:0;
-    }
-    #projects {
-        position: relative;
-        bottom: -100px;
-    }
-}
-
-
-
-
-
-
 @media only screen and (max-width: 768px) {
     body {
         
@@ -1137,6 +868,272 @@ p ._16px {
     }
 
 }
+
+
+@media only screen and (max-width: 425px) {
+    body {
+        
+    }
+    .body-max-width {
+        max-width: 380px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .first-input {
+        width: 350px;
+    }
+    .second-input {
+        width: 323px;  
+    }
+    .text-block._20-px {
+        width: 380px;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+    .paragraph._22px {
+        font-size: 19px;
+        /* line-height: 150%; */
+    }
+    .header-width {
+        width: 100%;
+    }
+    .my-img {
+        padding-top: 60px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .services-wid-pad-button {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 80px;
+    }
+    h3 .gradiants {
+        font-size: 24px;
+        letter-spacing: 4px; 
+    }
+    .projects-wid-pad {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .big-title {
+        font-weight: 700;
+        font-size: 32px;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-wid-pad {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h5 {
+        font-size: 19px;
+    }
+    .black-section {
+        display: none;
+    }
+    .marg-top {
+        margin-top: 0px;
+    }
+    .contact-margin-top {
+        margin-top: 50px;
+    }
+    /* img {
+        width: 100%;
+    } */
+    .h2 {
+        font-size: 36px;
+        line-height: 120%;
+        letter-spacing: 0.5px;
+    }
+    .faq-wid-pad {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .collap-width {
+        width: 100%;
+    }
+    .banners {
+        margin: 30px 0px;
+    }
+    #contact {
+        margin-top: 200px;
+    }
+    .flex-space-between {
+        flex-direction: column;
+    }
+    .footer-img {
+        width: 70%;
+    }
+    .flex-col {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-nav-b {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .gap {
+        margin: 0;
+    }
+    .pad-right1 {
+        padding-right: 60px;
+    }
+    .pad-right2 {
+        padding-right: 59px;
+    }
+    .pad-right3 {
+        padding-right: 22px;
+    }
+
+    .img-faq {
+        background-image: url(./arrow-down-s-line-1.svg);
+        background-repeat: no-repeat;
+        background-size: 755px 18px;
+        background-position: 4% 50%;
+    }
+    .accordion {
+        width: 100%;
+    }
+    .span2 {
+        font-size: 30px !important;
+        letter-spacing: 1px !important;
+    }
+    .email-image-wrapper {
+        width: 30px;
+        height: 21px;
+        margin-right: 6px;
+        margin-top: 8px;
+    }
+    .img-pad {
+        width: 85%;
+    }
+    .header.flex-row {
+        flex-direction: row;
+    }
+    .textarea {
+        width: 350px;
+    }
+    .div-form-label {
+        width: 375px;
+    }
+    .services-p-width {
+        padding-top: 30px;
+    }
+    .header.revers {
+        flex-direction: column-reverse;
+    }
+    #i-bar {
+        display: block;
+        margin-left: 166px;
+    }
+    #i-bar :hover{
+
+    }
+    .header.i-nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .side-menu {
+        display: none;
+    }
+
+    .hamb {
+        cursor: pointer;
+        float: right;
+        padding: 40px 20px;
+    }
+    .nav {
+        max-height: 0;
+        transition: max-height .5s ease-out;
+    }
+    .nav{
+        width: 100%;
+        height: 16%;
+        background-color: white;
+        position: absolute;
+        top: 104px;
+        left: 0;
+        overflow: hidden;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .menu a{
+        display: block;
+        padding: 12px;
+        margin: 0;
+        color: black;
+        text-align: center;
+    }
+    .menu a:hover{
+        background-color: white;
+    }
+    .side-menu:checked ~ nav{
+        max-height: 100%;
+    }
+    .hamb-line {
+        background: black;
+        display: block;
+        height: 2px;
+        position: relative;
+        width: 24px;
+    }
+    .hamb-line::before,
+    .hamb-line::after{
+    background: black;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    }
+    .hamb-line::before{
+    top: 5px;
+    }
+
+    .hamb-line::after{
+    top: -5px;
+    }
+    .side-menu:checked ~ .nav{
+        max-height: 16%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+    
+    .side-menu:checked ~ .hamb .hamb-line {
+        background: transparent;
+    }
+    
+    .side-menu:checked ~ .hamb .hamb-line::before {
+        transform: rotate(-45deg);
+        top:0;
+    
+    }
+    
+    .side-menu:checked ~ .hamb .hamb-line::after {
+        transform: rotate(45deg);
+        top:0;
+    }
+    #projects {
+        position: relative;
+        bottom: -100px;
+    }
+}
+
 
 
 
