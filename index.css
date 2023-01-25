@@ -9,6 +9,10 @@ body {
     margin: 0px;
 }
 
+*{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
 .side-menu {
     display: none;
 }

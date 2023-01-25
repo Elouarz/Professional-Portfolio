@@ -24,10 +24,10 @@
             <div class="omar-logo">
                 <img src="./LWARZ KA7LA.png">
             </div>
-                <input class="side-menu" type="checkbox" id="side-menu">
-                <label class="hamb" for="side-menu">
-                    <span class="hamb-line"></span>
-                </label>
+            <input class="side-menu" type="checkbox" id="side-menu">
+            <label class="hamb" for="side-menu">
+                <span class="hamb-line"></span>
+            </label>
             <div class="nav">
                 <nav class="menu header">
                     <a href="#services">Services</a>
@@ -246,25 +246,27 @@
                 </div>
             </div>
             <div class="contact-width contact-marg-top contact-height">
-                <div class="flex">
-                    <div>
-                        <label for="name" class="form-label">Your Name</label><br>
-                        <input type="text" class="first-input more-details input-marg" placeholder="Your Name">
-                    </div>
-                    <!-- <div>
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="flex">
+
+                        <div>
+                            <label for="name" class="form-label">Your Name</label><br>
+                            <input type="text" class="first-input more-details input-marg" placeholder="Your Name">
+                        </div>
+                        <!-- <div>
                         <label for="name" class="form-label">Last Name</label><br>
                         <input type="text" class="first-input more-details" placeholder="Last Name">
                     </div> -->
-                </div>
-                <div>
-                    <div>
-                        <label for="email" class="form-label">Your E-mail</label><br>
-                        <input type="text" class="img-for-email second-input more-details"
-                            placeholder="Enter your e-mail">
                     </div>
-                </div>
-                <div>
-                    <!-- <div>
+                    <div>
+                        <div>
+                            <label for="email" class="form-label">Your E-mail</label><br>
+                            <input type="text" class="img-for-email second-input more-details"
+                                placeholder="Enter your e-mail">
+                        </div>
+                    </div>
+                    <div>
+                        <!-- <div>
                         <label for="Budget" class="form-label">Your Budget</label><br>
                         <select name="Budget" class="img-for-budget budget-input" id="Budget">
                             <option value="First">1k-3k</option>
@@ -272,23 +274,24 @@
                             <option value="Third">5k-10k</option>
                             <option value="Fourth">More than 10k</option>
                         </select>
-                    </div> -->
-                    <div class="div-form-label">
-                        <label for="name" class="form-label">Tell me a bit more what you are looking for?</label>
-                        <textarea name="" id="" class="second-input textarea more-details"
-                            placeholder="Example Text"></textarea>
+                        </div> -->
+                        <div class="div-form-label">
+                            <label for="name" class="form-label">Tell me a bit more what you are looking for?</label>
+                            <textarea name="" id="" class="second-input textarea more-details"
+                                placeholder="Example Text"></textarea>
+                        </div>
+                        <div class="submit-button">
+                            <a class="button" href="contact">
+                                <div class="button-up">
+                                    <button type="submit" class="button-text">Submit Now!</button>
+                                </div>
+                                <div>
+                                    <div class="button-down"></div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="submit-button">
-                        <a class="button" href="contact">
-                            <div class="button-up">
-                                <div class="button-text">Submit Now!</div>
-                            </div>
-                            <div>
-                                <div class="button-down"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
     </section>
